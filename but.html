@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Era Babe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fdecef;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #d6336c;
+            margin-bottom: 30px;
+        }
+
+        img {
+            width: 30%;
+            height: 30%;
+        }
+
+        /* Mobile screen (max-width: 768px) */
+        @media (max-width: 768px) {
+            img {
+                width: 40%;
+                height: 40%;
+            }
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: 0.2s;
+        }
+
+        #yesBtn {
+            background: #ff4d4d;
+            color: white;
+            transition: 0.3s;
+            
+        }
+
+        #yesBtn:hover {
+            background-color: #ff0000;
+        }
+
+        #noBtn {
+            background: #4CAF50;
+            color: white;
+            transition: 0.3s;
+            /* padding: 3px 50px; */
+        }
+
+        #noBtn:hover {
+            background-color: #1bd321;
+        }
+
+        img{
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <img src="img/era.jpeg" alt="Era Profile picture" width="40%" height="40%">
+        <h1>Era Will you be my valentine?❤️</h1>
+
+        <a href="yes.html"><button id="yesBtn">Yes</button></a>
+        <a href="iam.html"><button id="noBtn">I'm going to DIE</button></a>
+    </div>
+
+</body>
+
+</html>
